@@ -1,5 +1,5 @@
 #Maximum 8 deneme hakkına sahip olan bir kullanıcıdan, üretilen rastgele sayıyı bulmasını isteyelim
-#Kazanımlar: (Random Sayı Üretme, While Döngüsü, If ve Break Deyimi, Klavyeden Veri Girişi)
+#İçerik: (Random Sayı Üretme, While Döngüsü, If ve Break Deyimi, Klavyeden Veri Girişi)
 
 counter = 0 
 hak = 8
