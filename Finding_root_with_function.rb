@@ -10,4 +10,3 @@ print "Kökü alınacak sayıyı giriniz: "
 num = gets.chomp.to_f #float tipinde olmalı
 
 square(num)
-
