@@ -3,15 +3,12 @@ a = gets.chomp.to_i
 b = gets.chomp.to_i
 c = gets.chomp.to_i
 
-	if a == b && b == c && a==c
-		puts "Eşkenar Üçgen"
+if a == b && b == c && a==c
+  puts "Eşkenar Üçgen"
 
-	elsif 
-		a != b && b != c && a!= c
-		puts "Çeşitkenar Üçgen"
-
-	else
-		puts "İkizkenar Üçgen"
-
+elsif 
+  a != b && b != c && a!= c
+    puts "Çeşitkenar Üçgen"
+else
+    puts "İkizkenar Üçgen"
 end
-
