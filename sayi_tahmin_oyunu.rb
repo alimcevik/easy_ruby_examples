@@ -13,20 +13,22 @@ guess = gets.chomp.to_i
 counter += 1
 kalan = (hak - counter)
 
-				if guess == randomNumber
-		puts "Tebrikler doğru tahmin. Tutulan Sayı: #{randomNumber}"
-		puts "#{counter}. seferde bildiniz."
+	if guess == randomNumber
+	puts "Tebrikler doğru tahmin. Tutulan Sayı: #{randomNumber}"
+	puts "#{counter}. seferde bildiniz."
+	
+	  break
+
+	  elsif counter == 5 || kalan == 0
+	    puts "Deneme hakkınız kalmadı!"
 		break
 
-			elsif counter == 5 || kalan == 0
-			puts "Deneme hakkınız kalmadı!"
-			break
+	  elsif guess > randomNumber
+	    puts "Yanlış tahmin.Lütfen değeri azaltın. (Kalan Hak: #{kalan})"
+	
+	  elsif guess < randomNumber
+	    puts "Yanlış tahmin.Lütfen değeri yükseltin. (Kalan Hak: #{kalan})"
 
-				elsif guess > randomNumber
-					puts "Yanlış tahmin.Lütfen değeri azaltın. (Kalan Hak: #{kalan})"
-				elsif guess < randomNumber
-					puts "Yanlış tahmin.Lütfen değeri yükseltin. (Kalan Hak: #{kalan})"
-
-
-		end
 	end
+	
+end
