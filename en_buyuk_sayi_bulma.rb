@@ -8,9 +8,11 @@ c = gets.chomp.to_i
 max = a
 
 if c > max 
-#ilk önce c koşuluna bakmalıyız. Eğer "b > max" şeklinde başlarsak, programımız ilk durum sağlandığı taktirde diğer seçenekleri kontrol etmeden if yapısından çıkacaktır.
-	max = c
-	elsif b > max
-		max = b	
+#ilk önce c koşuluna bakmalıyız.
+#Eğer "b > max" şeklinde başlarsak, programımız ilk durum sağlandığı taktirde diğer seçenekleri kontrol etmeden if yapısından çıkacaktır.
+  max = c
+elsif b > max
+  max = b	
 end
+
 puts "En büyük sayi: #{max}"
