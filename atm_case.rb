@@ -34,4 +34,4 @@ islem = gets.chomp.to_i
 		puts "Yanlış işlem yaptınız! \n tekrar deneyin"
 
 	end
-	puts "\nKalan bakiyeniz: #{bakiye}"
+	puts "\nKalan bakiyeniz: #{bakiye}" 
